@@ -26,7 +26,7 @@ app.post("/scan", (req, res) => {
   const opts = {
     margin: 1,
     width: 150,
-    version: 5
+    version: 35
   };
 
   qr.toDataURL(url, opts, (err, src) => {
